@@ -9,3 +9,5 @@
 @if(session('path'))
     <p>File uploaded successfully. <a href="{{ route('get-file', basename(session('path'))) }}">View file</a></p>
 @endif
+
+<div>Current Url Path </div>
